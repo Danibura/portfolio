@@ -61,7 +61,7 @@ export default function Profile() {
       ref={tiltRef}
       className="w-48 md:w-80 rounded-3xl shadow-lg overflow-hidden select-none touch-none"
     >
-      <img src="/assets/Rheinpark.jpg" alt="Me" className="w-full h-auto" />
+      <img src="/assets/Rheinpark.webp" alt="Me" className="w-full h-auto" />
       <div className="glare absolute inset-0 pointer-events-none"></div>
     </div>
   );

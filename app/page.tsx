@@ -8,7 +8,7 @@ const projects: ProjectType[] = [
     title: "Trip planner",
     description: "A web app to organize trips with other people",
     url: "https://trip-planner-rust-gamma.vercel.app",
-    cover: "trip.png",
+    cover: "trip.webp",
     languages: ["html", "css", "js", "react", "node", "mongo"],
   },
 ];
