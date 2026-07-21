@@ -18,7 +18,7 @@ export default function Home() {
     <div className="bg-mist-900 min-h-screen">
       <div className="flex flex-wrap justify-center items-center gap-x-30 mt-6 md:mt-20">
         <Profile />
-        <div className="block mt-8 text-center">
+        <div className="block mt-8 text-center text-white">
           <h1 className="font-bold text-4xl md:text-7xl">
             DANIELE <br /> BURATTI
           </h1>
