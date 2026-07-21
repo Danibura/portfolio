@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:mt-10 p-4">
+      <div className="md:mt-10 p-6">
         <div className=" text-center text-2xl md:text-4xl mt-10  font-extrabold bg-linear-to-r from-red-900 via-white to-green-900 text-transparent bg-clip-text animate-gradient w-full">
           PROJECTS
         </div>
