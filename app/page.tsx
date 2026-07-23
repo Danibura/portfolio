@@ -5,6 +5,14 @@ import Profile from "@/components/profile";
 const projects: ProjectType[] = [
   {
     id: 1,
+    title: "Expense tracker",
+    description: "A web app to monitor your expenses and earnings",
+    url: "https://budgeting.danibura.me",
+    cover: "budgeting3.webp",
+    languages: ["tailwind", "typescript", "react", "nextjs", "postgresql"],
+  },
+  {
+    id: 2,
     title: "Trip planner",
     description: "A web app to organize trips with other people",
     url: "https://trip-planner-rust-gamma.vercel.app",
@@ -15,16 +23,16 @@ const projects: ProjectType[] = [
 
 export default function Home() {
   return (
-    <div className="bg-mist-900 min-h-screen">
+    <main className="bg-mist-900 min-h-screen">
       <div className="flex flex-wrap justify-center items-center gap-x-30 mt-6 md:mt-20">
         <Profile />
         <div className="block mt-8 text-center text-white">
           <h1 className="font-bold text-4xl md:text-7xl">
             DANIELE <br /> BURATTI
           </h1>
-          <h3 className="font-medium md:text-3xl mt-2 md:mt-4">
+          <h2 className="font-medium text-md md:text-3xl mt-2 md:mt-4">
             Developer based in Milan
-          </h3>
+          </h2>
           <div className="flex mt-10 md:mt-14 gap-6 justify-center items-center">
             <a href="https://github.com/Danibura">
               <img
@@ -69,6 +77,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 }

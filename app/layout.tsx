@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Daniele Buratti",
-  description: "Portfolio website of Daniele Buratti",
+  description: "Portfolio website of Daniele Buratti, developer based in Milan",
 };
 
 export default function RootLayout({

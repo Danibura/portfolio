@@ -14,7 +14,7 @@ export default function Project({ project }: Props) {
           className="bg-clip-padding h-50 w-full rounded-2xl"
         />
         <h2 className="text-2xl md:text-3xl mt-2 ml-4">{project.title}</h2>
-        <p className="text-md md:text-lg md:mt-1 ml-4 mb-2">
+        <p className="text-sm md:text-lg md:mt-1 mx-4 mb-2">
           {project.description}
         </p>
         <div className="flex flex-wrap mx-4 gap-3">
