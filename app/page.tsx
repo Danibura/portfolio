@@ -8,7 +8,7 @@ const projects: ProjectType[] = [
     title: "Expense tracker",
     description: "A web app to monitor your expenses and earnings",
     url: "https://budgeting.danibura.me",
-    cover: "budgeting3.webp",
+    cover: "budgeting.webp",
     languages: ["tailwind", "typescript", "react", "nextjs", "postgresql"],
   },
   {
